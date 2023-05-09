@@ -11,7 +11,7 @@ section > *{
     width: 1000px;
 }
 
-/* HEADER */
+/*///////// HEADER /////////*/
 
 /* HEADER_SECTION_1 */
 #header_sec_1{
@@ -53,7 +53,7 @@ nav{
     height: 300px;
 }
 
-/* MAIN */
+/*///////// MAIN /////////*/
 .slots_container{
     display: flex;
 }
@@ -92,15 +92,53 @@ nav{
     width: 100%;
 }
 
+/*///////// FOOTER /////////*/
 
-
-
-
-/* DEBUG */
-header{
-    border: 1px dashed black;
+/* FOOTER_SECTION_1 */
+#footer_sec_1{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    margin-bottom: 1px;
+}
+.footer_slots_contanier{
+    display: flex;
 }
 
+.footer_small_slot{
+    width: 30%;
+}
+
+.footer_big_slot{
+    width: 70%;
+    display: flex;
+}
+
+.footer_big_slot>*{
+    width: 25%;
+}
+
+#footer_sec_1{
+    padding-top: 20px;
+}
+
+/* FOOTER_SECTION_2 */
+#footer_sec_2{
+    padding-top: 15px;
+}
+
+.footer_slots_contanier_2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+/*////////// DEBUG ///////// */
 #header_sec_1{
     background-color: rgba(173,216,230,255);
 }
@@ -143,5 +181,40 @@ nav{
     height: 600px;
     background-color: green;
 }
+
+footer >*{
+    background-color: rgba(35,39,42,255);
+}
+
+.footer_small_slot{
+    background-color: lightcoral;
+    height: 400px;
+}
+
+.footer_big_slot{
+   background-color: aquamarine;
+}
+
+.footer_small_slot{
+    border: 1px dashed black;
+}
+
+.footer_big_slot{
+    border: 1px dashed black;
+}
+.footer_big_slot>*{
+    border: 1px dashed white;
+}
+
+.footer_slots_contanier_2{
+    background-color: rgba(127,255,212,255);
+    
+}
+
+.footer_slot{
+    background-color: rgba(255,182,193,255);
+    padding: 5px;
+}
+
 
 /*  */
