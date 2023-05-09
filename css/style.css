@@ -107,12 +107,16 @@ nav{
     height: 300px;
 }
 
-#main_sec_1 .big_slot{
+#main_sec_2{
+    background-color: rgba(211,211,211,255);
+}
+
+.big_slot{
    background-color: rgba(30,144,255,255);
    height: 400px ;
 }
 
-#main_sec_1 .small_slot{
+.small_slot{
    background-color: rgba(255,192,203,255);
    height: 400px;
 }
