@@ -43,14 +43,13 @@ nav{
     text-align: end;
 }
 
-/*HEADER_SECTION_2 */
+/* HEADER_SECTION_2 */
 #header_sec_2{
     padding: 30px;
 }
 
 #header_sec_2 >div{
     width: 60%;
-    height: 300px;
 }
 
 /*///////// MAIN /////////*/
@@ -69,7 +68,7 @@ nav{
     width: 30%;
 }
 
-/*MAIN_SECTION_1 */
+/* MAIN_SECTION_1 */
 #main_sec_1{
   
 }
