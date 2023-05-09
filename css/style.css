@@ -57,7 +57,10 @@ nav{
 .slots_container{
     display: flex;
 }
-
+.main_sec{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .big_slot{
     width: 70%;
 }
@@ -68,15 +71,19 @@ nav{
 
 /*MAIN_SECTION_1 */
 #main_sec_1{
-    padding-top: 20px;
-    padding-bottom: 20px;
+  
 }
 
 /* MAIN_SECTION_2 */
 #main_sec_2{
-    padding-top: 20px;
-    padding-bottom: 20px;
+   
 }
+
+/* MAIN_SECTION_3 */
+#main_sec_2{
+  
+}
+
 
 
 
