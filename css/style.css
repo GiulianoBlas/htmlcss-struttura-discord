@@ -6,3 +6,79 @@
 }
 
 /* GENERAL */
+section > *{
+    margin: auto;
+    width: 1000px;
+}
+
+/* HEADER */
+
+/* SECTION_1 */
+#header_sec_1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_slot{
+    padding: 10px;
+}
+
+.nav_slot:nth-child(1) {
+    width: 25%;
+}
+
+.nav_slot:nth-child(2){
+    width: 50%;
+    text-align: center;
+}
+
+.nav_slot:nth-child(3){
+    width: 25%;
+    text-align: end;
+}
+
+/* SECTION_2 */
+#header_sec_2{
+    padding: 30px;
+}
+
+#header_sec_2 >div{
+    width: 60%;
+    height: 300px;
+}
+
+
+
+
+/* DEBUG */
+header{
+    border: 1px dashed black;
+}
+
+#header_sec_1{
+    background-color: rgba(173,216,230,255);
+}
+#header_sec_2{
+    background-color: navy;
+}
+
+nav > a{
+    border: 2px dashed rgb(165, 122, 42)
+}
+
+nav{
+    background-color: rgba(218,165,32,255);
+}
+
+#header_sec_2 > div{
+    background-color: rgba(238,130,238,255);
+    height: 300px;
+}
+
+/*  */
